@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard Admin</title>
+  <link rel="stylesheet" href="admin.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script defer src="admin.js"></script>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <img src="image/YouthVibe.png" alt="">
+            </div>
+            <div class="profile">
+                <img src="image/backadmin.png" alt="Profile" class="profile-img">
+            </div>
+            <ul class="nav">
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="manajemen.html">Manajemen</a></li>
+                <li><a href="pesanan.html">Pesanan</a></li>
+                <li><a href="#">Pembayaran</a></li>
+            </ul>
+            <div class="logout">
+                <a href="login.html">🔓 Logout</a>
+            </div>
+        </aside>
+        
+        <!-- Main content -->
+         <div class="pesanan">
+            <h2>Pesanan Produk</h2>
+            <div class="table-container">
+                <!-- Kolom NO -->
+                <div class="column-judul">
+                    <div class="box-judul"><p>NO</p></div>
+                    <div class="box-judul">1</div>
+                    <div class="box-judul">2</div>
+                    <div class="box-judul">3</div>
+                </div>
+                <!-- Kolom Tanggal -->
+                <div class="column">
+                    <div class="box">TANGGAL ORDER</div>
+                    <div class="box">12/05/2025</div>
+                    <div class="box">9/06/2025</div>
+                    <div class="box">2/07/2025</div>
+                </div>
+                <!-- Kolom ID -->
+                <div class="column">
+                    <div class="box">ID PESANAN</div>
+                    <div class="box">12QNJSBD</div>
+                    <div class="box">4345SAAS</div>
+                    <div class="box">2312EADN</div>
+                </div>
+                <!-- Kolom Status -->
+                <div class="column">
+                    <div class="box">STATUS</div>
+                    <div class="box">
+                        <div class="aksi-wrapper">
+                            <button class="status-btn">STATUS</button>
+                            <div class="status-menu">
+                                <button>Sudah Bayar</button>
+                                <button>Belum Bayar</button>
+                                <button>Dikirim</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="aksi-wrapper">
+                            <button class="status-btn">STATUS</button>
+                            <div class="status-menu">
+                                <button>Sudah Bayar</button>
+                                <button>Belum Bayar</button>
+                                <button>Dikirim</button>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="box">
+                        <div class="aksi-wrapper">
+                            <button class="status-btn">STATUS</button>
+                            <div class="status-menu">
+                                <button>Sudah Bayar</button>
+                                <button>Belum Bayar</button>
+                                <button>Dikirim</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

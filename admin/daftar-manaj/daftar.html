@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daftar Produk</title>
+  <link rel="stylesheet" href="daftar.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="top-bar">
+      <div class="back"><a href="../manajemen.html">«</a></div>
+      <div class="add"><a href="tambah.html">Tambah</a></div>
+    </div>
+
+    <!-- Header kolom manual -->
+    <div class="card-header">
+      <div class="card-item box1">NO</div>
+      <div class="card-item box">KODE BARANG</div>
+      <div class="card-item box">HARGA</div>
+      <div class="card-item box4">STOK</div>
+      <div class="card-item box5">AKSI</div>
+    </div>
+
+    <div class="card-container" id="cardContainer">
+    <!-- Kartu produk akan ditambahkan lewat JS -->
+    </div>
+      <div class="nav-buttons">
+        <div id="prevBtn">Kembali</div>
+        <div class="produk"><a href="produk.html">Tampilkan daftar</a></div>
+        <div id="nextBtn">Next</div>
+      </div>
+    </div>
+  </div>
+  <script src="daftar.js"></script>
+</body>
+</html>
